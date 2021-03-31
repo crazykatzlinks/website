@@ -13,7 +13,6 @@
 
   --ff-primary:"Roboto Condensed", sans-serif;
   --ff-accent: "Audiowide",sans-serif;
-
 }
 body,
 h1,
@@ -33,7 +32,6 @@ h3{
     text-shadow: 2px 2px 4px #000000;
     text-align: center;
     letter-spacing: 3px;
-
 }
 h2,
 h3,
@@ -41,6 +39,7 @@ p {
     margin-bottom: 1em;
     text-align: center;
 }
+
 /* body,
 html {
   height: 100%; -- FT note, Enable to turn off parralax footer
@@ -50,6 +49,7 @@ P {
   font-family: var(--ff-primary);
 
 }
+
 body {
   margin: 0;
   font-family: var(--clr--primary-200);
@@ -66,6 +66,7 @@ header {
   height: 100px;
   background:transparent;
 }
+
 header h1{
   text-align: center;
   color: var(--clr--neutral-100);
@@ -73,17 +74,18 @@ header h1{
   text-shadow: 2px 2px 4px #000000;
   justify-content: center;
 }
+
 header h2{
   text-align: center;
   color: var(--clr--neutral-100);
   text-shadow: 2px 2px 4px #000000;
 }
+
 footer h1 h2{
   color: var(--clr--neutral-900);
   text-shadow: 2px 2px 4px #000000;
-
-
 }
+
 footer {
   width: 100%;
   position: fixed;
@@ -94,12 +96,8 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  
-  
-  
-
-
 }
+
 section{
     padding:3rem 0;
     box-shadow: 3px 2px 2px 0px rgba(51,51,51,0.5);
@@ -114,7 +112,6 @@ section img {
   justify-content: center;
 }
 
-
 .text-center{
   text-align: center;
 }
@@ -125,14 +122,14 @@ section img {
   border-bottom: 1px solid black;
   background: white;
   min-height: 500px;
-
-  
 }
+
 .wrapper-parallax {
   max-height: 100%;
   margin-top: auto;
   margin-bottom: 500px;
 }
+
 .hbanner{
   background: url("./images/pexels-harrison-haines-2921541.jpg") no-repeat center;
   background-size: cover;
@@ -163,7 +160,6 @@ img {
   }
   .split > * + * {
       margin-left: 2em;
-
   }
 }
 
@@ -186,19 +182,15 @@ img {
   color: var(--clr--primary-100);
 }
 
-.pic-area > * {
-  flex-basis: 100%;
-}
 .wrappic h1 {
   margin:  3rem;
   padding: 3em;
   text-align: center;
   font-size: 30px;
-
 }
+
 .single-pic {
   padding: 20px 20px;
-  
 }
 
 img:hover {
